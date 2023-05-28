@@ -1,0 +1,99 @@
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2017/02/15/10/39/salad-2068220_960_720.jpg');
+    background-position:center;
+	font-size:3vw;
+    background-size: cover;
+	background-repeat:no-repeat; 
+    color:white;
+    font-family:cursive;
+}
+.container{
+	display:flex;
+	justify-content: space-between;	
+	width:fit-content;
+	border:solid 2px transparent;
+}
+.container2{
+    height:50vw;
+    width:40vw;
+	order:2;
+	border:solid 1px transparent;
+}
+.container1{
+    text-align:left;
+	height:50vw;
+	width:55vw;
+	order:1;
+	margin-top:3vw;
+	margin-left:5vw;
+	border:solid 1px transparent;   
+}
+
+.feedback_coln{
+	color:white;
+	font-size:1vw;
+	text-align:left;
+	
+	
+}
+.label_col{
+	text-align:right;
+    color:white;
+}
+.food{
+	border-radius: 2vw;
+	width:12vw;
+	height:1.5vw;
+	font-size: 1.3vw;
+	text-align: center;
+}
+.small{
+	font-size:2vw;
+}
+.small2{
+	font-size:1vw;
+	color:white;
+	text-align:center;
+	
+}
+
+.subm{
+	border-radius: 2vw;
+	width:10vw;
+	height:3vw;
+	text-align:center;
+	border:solid 0.1vw black; 
+	
+}
+
+.small3{
+	font-size:1.5vw;
+}
+table{
+	content: fixed;
+	table-layout:fixed ;
+    font-size:2vw;
+	margin:0vw;
+	border:solid 1px transparent;
+	height:30vw;
+	width:44vw;
+}
+td{
+	width:15vw;
+	border:1px solid transparent;
+}
+.inputlabel{
+	text-align: left;
+}
+
+.input1{
+	
+    border-radius: 2vw;
+	width:12vw;
+	height:1.5vw;
+	font-size: 1vw;
+	text-align: center;
+	border:solid 0.1vw white; 
+	color:black;
+}
+	

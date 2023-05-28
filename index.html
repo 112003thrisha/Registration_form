@@ -1,0 +1,62 @@
+ 
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="cs.css">
+      <script type="text/javascript" src="ja1.js"></script>
+    </head>
+    <body>
+        <div class="container"> 
+            <div class="container2"></div>
+            <div class="container1">
+            <p style="text-align:left;">Welcome to Tris's Cooking Class:</p>
+            <form action="processor.html" method="post">
+            <table>
+            <tr>
+            <td class="label_col">First Name:</td><td><input type="text" class="input1" id="firstname" onblur="validateFirstName();" required ></td>
+            <td><span class="feedback_coln" id="message1">&nbsp;</span></td>
+            </tr>
+            <tr >
+            <td class="label_col">Last Name:</td><td><input type="text"  class="input1" id="Lastname"  onblur="validateLastName();" required></td>
+            <td><span class="feedback_coln" id="message2">&nbsp;</span></td>
+            </tr>
+            <tr>
+            <td class="label_col">DOB:</td><td><input type="date" class="input1" name="birthday" required></td></tr>
+            <tr>
+            <td class="label_col">Phone No:</td><td><input type="text" id="phone"  class="input1" placeholder="xxx-xxx-xxxx" onblur="validatephone();" required></td>
+            <td><span class="feedback_coln" id="message3"></span></td>
+            </tr>
+            <tr>
+            <td class="label_col">Email Id:</td><td><input type="text" id="email" class="input1" placeholder="xyz@gmail.com" onblur="validateEmail();" required></td>
+            <td><span class="feedback_coln" id="message6"></span></td></tr>
+            <tr><td class="label_col">Country:
+            </td><td style="font-size:1.5vw;" colspan="2">
+              <input  type="radio" name="country" value="India" checked>India
+            
+              <input type="radio" name="country" value="Other" >Other
+            </td>
+            </tr>
+            <tr><td class="label_col">Food Type:
+            </td><td colspan="2">
+              <select class="food" required>
+                <option value="Italian">Italian</option>
+                <option value="Indian">Indian</option>
+                <option value="Chinese">Chinese</option>
+              </select>
+            </tr>
+            <tr>
+                <td class="label_col">Price:</td><td><input type="number" class="input1" placeholder="Rs.10000" readonly ></td>
+                <td><span class="feedback_coln" ></span></td></tr>
+                <tr ><td colspan="3" class="label_col"></td></tr>
+                <tr ><td colspan="3" class="label_col"></td></tr>
+                <tr ><td colspan="3" class="label_col"></td></tr>
+                <tr>
+                <td colspan="3" class="small2" >
+                <input   type="checkbox" name="condition" required >I agree to all terms and conditions.</td></tr>
+                <tr  ><td></td>
+                  <td  ><input  class="subm" type="submit" value="Enroll now"></td><td</tr>
+                </table></form>
+            </div>
+        </div>
+    </body>
+</html>
